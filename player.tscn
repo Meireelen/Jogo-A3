@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://bl5etoge4qx2j"]
+
+[ext_resource type="Texture2D" uid="uid://bpt33w3lpwogw" path="res://assets/1 Pink_Monster/Pink_Monster.png" id="1_3g3q3"]
+[ext_resource type="Script" path="res://pink_monster1.gd" id="2_d0r0c"]
+
+[node name="Player" type="Node2D"]
+
+[node name="PinkMonster" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(1, -1)
+texture = ExtResource("1_3g3q3")
+script = ExtResource("2_d0r0c")

@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bpwdc3pvokacq"]
+
+[ext_resource type="Texture2D" uid="uid://jd1mc1hyuxjk" path="res://assets/Fantasy Forests/Pink 1.png" id="1_08tt5"]
+
+[node name="BackgroundScene" type="Node2D"]
+
+[node name="Pink1" type="Sprite2D" parent="."]
+position = Vector2(526, 328)
+texture = ExtResource("1_08tt5")
